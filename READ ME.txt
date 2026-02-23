@@ -1,0 +1,25 @@
+# Loan Approval Prediction Project
+
+This project predicts whether a loan application will be approved or rejected based on customer data.  
+The model was trained in Google Colab using a DecisionTreeClassifier.
+
+---
+
+##  Project Contents
+
+- **loan_approval_v.1.pkl**  
+  The trained model file.
+
+- **main.py**  
+  A Python script that loads the model and makes predictions from a CSV file.
+
+- **requirements.txt**  
+  Contains the necessary Python libraries to run the project.
+
+- **input_data/**  
+  A folder that contains an example input file: `sample.csv`.
+
+- **V_1.ipynb**  
+  The Google Colab notebook used for training the model.
+
+---
