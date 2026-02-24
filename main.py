@@ -1,3 +1,4 @@
+import streamlit as st
 import joblib
 import pandas as pd
 
@@ -13,5 +14,7 @@ y_pred = model.predict(df)
 labels = ["approved" if x == 1 else "rejected" for x in y_pred]
 
 # Print the prediction results
-print("Predictions:")
-print(labels)
+
+st.title("Loan Approval Predictor")
+st.dataframe(df.head(20))
+st.write("Predictions:", labels)
